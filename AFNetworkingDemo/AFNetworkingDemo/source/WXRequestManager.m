@@ -7,11 +7,8 @@
 //
 
 #import "WXRequestManager.h"
-#import <AFNetworking.h>
 
 @interface WXRequestManager()
-
-@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
 
 @end
 
@@ -58,8 +55,8 @@ static WXRequestManager *instance = nil;
     _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html",@"text/json",@"text/javascript",@"text/plain", nil];
 }
 
-- (WXRequestMaker *)wx_makeRequests {
-    
++ (WXRequestMaker *)wx_maker {
+
     WXRequestMaker *marker = [[WXRequestMaker alloc] init];
     return marker;
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3114BBA124AF051500F957E8 /* WXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114BBA024AF051500F957E8 /* WXBaseModel.m */; };
+		3114BBA424AF091200F957E8 /* WXRequestMaker+HandleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114BBA324AF091200F957E8 /* WXRequestMaker+HandleResponse.m */; };
+		3114BBA724AF0B7B00F957E8 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114BBA624AF0B7B00F957E8 /* NSString+Encrypt.m */; };
+		3114BBAA24AF335100F957E8 /* WXInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114BBA924AF335100F957E8 /* WXInfoModel.m */; };
 		3143279024ADDDFE00E1C6D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143278F24ADDDFE00E1C6D7 /* AppDelegate.m */; };
 		3143279324ADDDFE00E1C6D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143279224ADDDFE00E1C6D7 /* SceneDelegate.m */; };
 		3143279624ADDDFE00E1C6D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143279524ADDDFE00E1C6D7 /* ViewController.m */; };
@@ -20,6 +24,7 @@
 		314327C924ADE22700E1C6D7 /* WXErrorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 314327C824ADE22700E1C6D7 /* WXErrorInfo.m */; };
 		314327CC24ADE23600E1C6D7 /* WXNetworkDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 314327CB24ADE23600E1C6D7 /* WXNetworkDefine.m */; };
 		314327CF24ADE3C400E1C6D7 /* WXRequestMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 314327CE24ADE3C400E1C6D7 /* WXRequestMaker.m */; };
+		3157827B24B2D467004FC3BF /* WXDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157827A24B2D467004FC3BF /* WXDataModel.m */; };
 		8CC40D4C5A12016EDC5E0658 /* libPods-AFNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A539405DFBBE80F42BC7917 /* libPods-AFNetworkingDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3114BB9F24AF051500F957E8 /* WXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXBaseModel.h; sourceTree = "<group>"; };
+		3114BBA024AF051500F957E8 /* WXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXBaseModel.m; sourceTree = "<group>"; };
+		3114BBA224AF091200F957E8 /* WXRequestMaker+HandleResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXRequestMaker+HandleResponse.h"; sourceTree = "<group>"; };
+		3114BBA324AF091200F957E8 /* WXRequestMaker+HandleResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WXRequestMaker+HandleResponse.m"; sourceTree = "<group>"; };
+		3114BBA524AF0B7B00F957E8 /* NSString+Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		3114BBA624AF0B7B00F957E8 /* NSString+Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		3114BBA824AF335100F957E8 /* WXInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXInfoModel.h; sourceTree = "<group>"; };
+		3114BBA924AF335100F957E8 /* WXInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXInfoModel.m; sourceTree = "<group>"; };
 		3143278B24ADDDFE00E1C6D7 /* AFNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3143278E24ADDDFE00E1C6D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3143278F24ADDDFE00E1C6D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +80,8 @@
 		314327CB24ADE23600E1C6D7 /* WXNetworkDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNetworkDefine.m; sourceTree = "<group>"; };
 		314327CD24ADE3C400E1C6D7 /* WXRequestMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXRequestMaker.h; sourceTree = "<group>"; };
 		314327CE24ADE3C400E1C6D7 /* WXRequestMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXRequestMaker.m; sourceTree = "<group>"; };
+		3157827924B2D466004FC3BF /* WXDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXDataModel.h; sourceTree = "<group>"; };
+		3157827A24B2D467004FC3BF /* WXDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDataModel.m; sourceTree = "<group>"; };
 		4A539405DFBBE80F42BC7917 /* libPods-AFNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		900163B52C67D909ABDAAF5A /* Pods-AFNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworkingDemo/Pods-AFNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C4045A8E1CBBD282B8EB4E57 /* Pods-AFNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingDemo.release.xcconfig"; path = "Target Support Files/Pods-AFNetworkingDemo/Pods-AFNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +143,10 @@
 				3143278F24ADDDFE00E1C6D7 /* AppDelegate.m */,
 				3143279124ADDDFE00E1C6D7 /* SceneDelegate.h */,
 				3143279224ADDDFE00E1C6D7 /* SceneDelegate.m */,
+				3114BBA824AF335100F957E8 /* WXInfoModel.h */,
+				3114BBA924AF335100F957E8 /* WXInfoModel.m */,
+				3157827924B2D466004FC3BF /* WXDataModel.h */,
+				3157827A24B2D467004FC3BF /* WXDataModel.m */,
 				3143279424ADDDFE00E1C6D7 /* ViewController.h */,
 				3143279524ADDDFE00E1C6D7 /* ViewController.m */,
 				3143279724ADDDFE00E1C6D7 /* Main.storyboard */,
@@ -135,6 +154,8 @@
 				3143279C24ADDE0000E1C6D7 /* LaunchScreen.storyboard */,
 				3143279F24ADDE0000E1C6D7 /* Info.plist */,
 				314327A024ADDE0000E1C6D7 /* main.m */,
+				3114BBA524AF0B7B00F957E8 /* NSString+Encrypt.h */,
+				3114BBA624AF0B7B00F957E8 /* NSString+Encrypt.m */,
 			);
 			path = AFNetworkingDemo;
 			sourceTree = "<group>";
@@ -160,6 +181,10 @@
 		314327C324ADDF0600E1C6D7 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				3114BB9F24AF051500F957E8 /* WXBaseModel.h */,
+				3114BBA024AF051500F957E8 /* WXBaseModel.m */,
+				3114BBA224AF091200F957E8 /* WXRequestMaker+HandleResponse.h */,
+				3114BBA324AF091200F957E8 /* WXRequestMaker+HandleResponse.m */,
 				314327C424ADDF1900E1C6D7 /* WXRequestManager.h */,
 				314327C524ADDF1900E1C6D7 /* WXRequestManager.m */,
 				314327C724ADE22700E1C6D7 /* WXErrorInfo.h */,
@@ -345,13 +370,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3114BBA424AF091200F957E8 /* WXRequestMaker+HandleResponse.m in Sources */,
 				314327C624ADDF1900E1C6D7 /* WXRequestManager.m in Sources */,
 				314327CC24ADE23600E1C6D7 /* WXNetworkDefine.m in Sources */,
+				3114BBA724AF0B7B00F957E8 /* NSString+Encrypt.m in Sources */,
 				3143279624ADDDFE00E1C6D7 /* ViewController.m in Sources */,
 				314327CF24ADE3C400E1C6D7 /* WXRequestMaker.m in Sources */,
 				3143279024ADDDFE00E1C6D7 /* AppDelegate.m in Sources */,
 				314327C924ADE22700E1C6D7 /* WXErrorInfo.m in Sources */,
+				3157827B24B2D467004FC3BF /* WXDataModel.m in Sources */,
+				3114BBAA24AF335100F957E8 /* WXInfoModel.m in Sources */,
 				314327A124ADDE0000E1C6D7 /* main.m in Sources */,
+				3114BBA124AF051500F957E8 /* WXBaseModel.m in Sources */,
 				3143279324ADDDFE00E1C6D7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,12 +553,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P89EA5NSQ3;
 				INFOPLIST_FILE = AFNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Xun.AFNetworkingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenwo.doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -540,12 +572,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P89EA5NSQ3;
 				INFOPLIST_FILE = AFNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Xun.AFNetworkingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenwo.doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
